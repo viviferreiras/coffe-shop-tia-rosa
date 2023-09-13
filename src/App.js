@@ -105,8 +105,8 @@ const App = () => {
           </div>
           <div className="endereco">
             <p>Av Americanas, 298</p>
-            <p>Alexania, Goiás</p>
-            <p>(11) 5874-9900</p>
+            <p>Alexânia, Goiás</p>
+            <p>(99) 99999-9900</p>
           </div>
         </div>
         <p>&copy; 2023 Coffee Shops Tia Rosa</p>

@@ -1,38 +1,267 @@
-.App {
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 10px;
+  line-height: 1.1;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+.home {
   text-align: center;
+  background-color: #f2f2f2;
+  padding: 60px 0;
+  transition: background-color 0.3s ease; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home h2 {
+  font-size: 2.5rem;
+  color: #333;
+  transition: font-size 0.3s ease; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #666;
+  transition: font-size 0.3s ease, margin-top 0.3s ease; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease; 
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover {
+  background-color: #c0392b;
+  transition: background-color 0.3s ease; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.home-enter {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  }
+
+nav ul li a {
+  display: inline;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  nav ul li a:hover {
+    color: #ff6347;
+  }
+
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr)); /* Crie uma grade com colunas flexíveis */
+  gap: 10px; 
+  justify-content: space-around; 
+  align-items: center; 
+  margin: 10px;
+  }
+
+.produto {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 300px;
+}
+
+.produto img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.produto img:hover {
+  transform: scale(1.05);
+}
+
+.produto h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.produto p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.preco {
+  font-size: 1.2rem;
+  color: #4b3d3b;
+  font-weight: bold;
+}
+
+.buy-button {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.buy-button:hover {
+  background-color: #ff4500;
+}
+
+.carrinho {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px; 
+  max-width: 200px;
+  position: fixed;
+  top: 0;
+  right: 1px;
+  z-index: 1;
+  overflow-y: auto;
+  max-height: 60vh;
+}
+
+.carrinho img {
+  width: 30px; 
+  height: auto; 
+ 
+ 
+}
+
+.carrinho li {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1rem;
+  margin-bottom: 5px; 
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.carrinho button {
+  padding: 5px 8px; 
+  font-size: 0.7rem; 
+  border-radius: 4px;
+}
+
+.carrinho button:hover {
+  background-color: #da1212;
+}
+
+.sobre {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.sobre-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.sobre-text {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.sobre-signature {
+  font-size: 14px;
+  font-style: italic;
+  color: #888;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: #8a8a8a;
+}
+
+.redes-sociais a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.endereco p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+footer p {
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 768px) {
+ 
+  header {
+    padding: 10px;
+  }
+
+  .produtos {
+    grid-template-columns: repeat(2, 3fr); 
+  }
+
+  .produto {
+    max-width: 100%; 
+  }
+  .home h2 {
+    font-size: 2rem;
+  }
+
+  .home p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+}
+

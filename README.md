@@ -1,4 +1,4 @@
-# Projeto Coffee Shop Tia Rosa
+# Projeto Coffee Shop Tia Rosa ☕
 
 O projeto **Coffee Shop Tia Rosa** é um site de cafeteria fictícia chamada Coffee Shop Tia Rosa. O objetivo deste projeto era criar um site moderno e atraente para a cafeteria, apresentando informações sobre os produtos oferecidos e fornecendo aos clientes uma experiência agradável ao navegar pelo site.
 
@@ -28,7 +28,7 @@ O projeto Coffee Shop Tia Rosa consiste em várias partes principais:
 
 ## Estilos Visuais e Responsividade
 
-O site foi projetado com um estilo moderno, fazendo uso de cores quentes e aconchegantes, juntamente com imagens atraentes de produtos. Foram aplicadas animações sutis para criar uma experiência mais envolvente para os visitantes.
+O site foi projetado com um estilo moderno, fazendo uso de cores neutras e aconchegantes, juntamente com imagens atraentes de produtos. Foram aplicadas animações sutis para criar uma experiência mais envolvente para os visitantes.
 
 A responsividade foi uma consideração importante ao desenvolver o site, garantindo que ele seja acessível e agradável em dispositivos desktop e móveis. Foi utilizado CSS flexbox e grid para criar layouts flexíveis e ajustáveis.
 
@@ -38,8 +38,9 @@ Embora o projeto tenha sido desenvolvido localmente, ele pode ser facilmente imp
 
 Este projeto é um exemplo de como o desenvolvimento web moderno pode criar uma presença online atraente e eficaz para um negócio fictício, demonstrando a aplicação de tecnologias como React.js, HTML, CSS e JavaScript.
 
+![Coffee Shop Tis Rosa](https://github.com/viviferreiras/coffe-shop-tia-rosa/blob/main/src/img/1kI.gif)
 
 
-Este é um resumo do projeto Coffee Shop Tia Rosa e do processo de criação do site. A equipe dedicou tempo e esforço para criar uma experiência cativante para os visitantes e espera que o site atraia entusiastas do café e amantes de quitutes artesanais.
+Este é um resumo do projeto Coffee Shop Tia Rosa e do processo de criação do site, para o trabalho de faculdade na matéria **Linguagem de Programação para Web**.
 
 

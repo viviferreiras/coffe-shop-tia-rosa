@@ -96,11 +96,23 @@ nav ul li a {
 .produto {
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(46, 33, 30, 0);
   text-align: center;
   padding: 15px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   max-width: 300px;
+}
+
+.buttonAdicionar {
+  border-radius: 30px;
+  background-color: #41b441;
+  padding: 8px;
+  border: 1px;
+  transition: transform 0.2s;
+}
+
+.buttonAdicionar:hover {
+  transform: scale(1.1);
 }
 
 .produto img {

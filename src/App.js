@@ -77,7 +77,7 @@ const App = () => {
             <li><a href="./components/Sobre/Sobre.js">Sobre Nós</a></li>
           </ul>
         </nav>
-        <h1>COFFEE SHOPS TIA ROSA</h1>
+        <h1>Coffee Shop Tia Rosa</h1>
       </header>
       <main>
         <Home />
@@ -117,4 +117,3 @@ const App = () => {
 
 
 export default App;
-

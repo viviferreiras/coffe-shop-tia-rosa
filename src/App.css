@@ -1,13 +1,13 @@
 body {
-  background-color: #ece6e0;
-  color: #4b3d3b;
+  background-color: rgb(237,214,212);
+  color: rgb(102,70,77);
   font-size: 18px;
   line-height: 1.1;
 }
 
 h1 {
-  font-family: 'Great Vibes', cursive; 
-  color: #dd6d5a;
+  font-family: 'Source Serif 4', serif; 
+  color: rgb(43, 5, 13);
   text-shadow: 
     -1px -1px 0 #fff,
     1px -1px 0 #fff, 
@@ -30,8 +30,15 @@ h1 {
   }
 }
 
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Source Serif 4', serif; 
+  color: rgb(219, 206, 207);
+}
+
 header {
-  background-color: #e9a69d;
+  background-color: rgb(160,123,116);
   color: #fff;
   padding: 10px;
   text-align: left;
@@ -45,14 +52,14 @@ header {
 
 .home h2 {
   font-size: 2.5rem;
-  color: #333;
+  color: rgb(102,70,77);
   transition: font-size 0.3s ease; 
 }
 
 .home p {
   font-size: 1.2rem;
   margin-top: 20px;
-  color: #666;
+  color: rgb(102,70,77);
   transition: font-size 0.3s ease, margin-top 0.3s ease; 
 }
 
@@ -95,7 +102,7 @@ nav ul li a {
   display: inline;
   margin-right: 10px;
   text-decoration: none;
-  color: #d85d47;
+  color: rgb(102,70,77);
   font-weight: bold;
   }
 
@@ -118,7 +125,7 @@ nav ul li a {
   }
 
 .produto {
-  background-color: #eeebe7;
+  background-color: rgb(225, 199, 199);
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0);
   text-align: center;
@@ -129,7 +136,7 @@ nav ul li a {
 
 .buttonAdicionar {
   border-radius: 30px;
-  background-color: #579857;
+  background-color: rgba(86, 116, 82, 0.867);
   padding: 8px;
   border: 1px;
   transition: transform 0.2s;
@@ -163,7 +170,7 @@ nav ul li a {
 
 .preco {
   font-size: 1.2rem;
-  color: #4b3d3b;
+  color: rgb(102,70,77);
   font-weight: bold;
 }
 
@@ -244,7 +251,7 @@ nav ul li a {
 
 .sobre {
   padding: 20px;
-  background-color: #ead9c4;
+  background-color: rgb(225, 199, 199);
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px;
@@ -258,7 +265,7 @@ nav ul li a {
 
 .sobre-title {
   font-size: 24px;
-  color: #dd6d5a;
+  color: rgb(202,125,114);
   margin-bottom: 16px;
   font-weight: bold;
   text-transform: uppercase;
@@ -266,7 +273,7 @@ nav ul li a {
 
 .sobre-text {
   font-size: 16px;
-  color: #666;
+  color: #fff;
   margin-bottom: 12px;
   line-height: 1.5;
 }
@@ -274,7 +281,7 @@ nav ul li a {
 .sobre-signature {
   font-size: 14px;
   font-style: italic;
-  color: #888;
+  color: #fff;
   text-align: right;
 }
 
@@ -296,13 +303,13 @@ nav ul li a {
 footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #e9a69d;
-  color: #453d3d;
+  background-color: rgb(160,123,116);
+  color: #675252;
 }
 
 .redes-sociais a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(224,207,197);
   font-size: 1.2rem;
   margin-right: 10px;
 }
@@ -318,12 +325,14 @@ footer p {
 
 @media screen and (max-width: 1025px) {
   .produtos {
+    width: 100%;
+    height: auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 3fr); 
     gap: 10px;
     justify-content: space-around;
     align-items: center;
-    margin: 10px;
+    margin: 5px;
 }
 }
 

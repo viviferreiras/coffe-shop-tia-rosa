@@ -78,6 +78,7 @@ const App = () => {
           </ul>
         </nav>
         <h1>Coffee Shop Tia Rosa</h1>
+        <h2>#CAFETERIA</h2>
       </header>
       <main>
         <Home />
